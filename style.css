@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url(img/amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    /* width: 100px; */
+}
+
+.nav-border {
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.nav-border:hover {
+    border: 1px solid wheat;
+    border-radius: 10px;
+}
+
+/* box2 */
+.nav-address {
+    width: 90px;
+    height: 40px;
+    padding-top: 0.2%;
+    padding-left: 0.5%;
+}
+
+.nav-box2up {
+    color: rgb(162, 168, 168);
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.nav-box2downP {
+    color: aquamarine;
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.nav-location-logo {
+    display: flex;
+    align-items: center;
+
+}
+
+/* box3 */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(243, 168, 71);
+    height: 40px;
+    width: 839.16px;
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 4px solid orangered;
+    box-sizing: border-box;
+}
+.nav-search-input {
+    padding-left: 10px; /* Add left padding to simulate margin */
+}
+.nav-search-icon {
+    background-color: transparent;
+}
+.nav-search-icon:hover {
+    background-color: rgb(224, 147, 46);
+}
+
+#nav-search-select {
+    color: f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.nav-search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.nav-search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    color: black;
+}
+
+/* manu button for mobile */
+.menu-mobile {
+    display: none;
+}
+/* box4 */
+/* .nav-map {
+    margin-left: 1.8%;
+} */
+
+.nav-country-map {
+    width: auto;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-country-option {
+    background-color: transparent;
+    color: antiquewhite;
+    border: none;
+}
+
+/* box5 & 6 */
+.nav-signin {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-sigin-text {
+    color: antiquewhite;
+    font-size: 0.7rem;
+    padding-left: 15.8%;
+}
+.nav-account-options {
+    background-color: transparent;
+    color: white;
+    font-size: 0.85rem;
+    border: none;
+    font-weight: 700;
+}
+
+/* box7 cart */
+.nav-cartBox {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+.nav-cart {
+    font-weight: 700;
+}
+
+/* container 2 */
+.container2 {
+    height: 39px;
+    background-color: rgb(35, 47, 62);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 5px;
+}
+.container2-slider {
+    margin-left: -21px;
+    
+}
+.container2-options {
+    display: flex;
+    padding-right: 700px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container2-options p {
+    display: inline;
+    font-size: 14px;
+    white-space: nowrap; /* Prevents text from breaking into two lines */
+    margin: 0 10px;
+}
+
+.container2-Akashdip {
+    padding-right: 10px;
+    font-weight: 700;
+    margin: 0 0;
+    white-space: nowrap;
+}
+
+/* hero-section */
+.hero-section {
+    height: 600px;
+    background-image: linear-gradient(to bottom, transparent 85%, white 100%),url(img/top.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-message {
+    height: 40px;
+    width: 80%;
+    max-width: 100%;
+    background-color: white;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 320px; /*320 */
+    border-radius: 5px;
+
+}
+.hero-message p {
+    margin: 0; /* Reset default margin */
+}
+
+.hero-message a {
+    color: rgb(53, 140, 111);
+    text-decoration: none;
+}
+
+/* shop section */
+.shop {
+    width: auto;
+    height: auto;
+    margin-top: -300px;
+    margin-bottom: 15px;
+}
+.shop-container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    /* border: 2px solid black; */
+    background-color: aliceblue;
+    width: 23%;
+    height: 400px; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.box:hover {
+    transform: scale(1.1);
+}
+.box1 {
+    margin: 1rem;
+}
+.box1 h1 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+.box1 p {
+    margin: 1rem;
+    margin-left: 0;
+}
+
+.box-img {
+    height: 300px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+.box-img:hover {
+    transform: scale(1.1);
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Mobile-first approach */
+/* Apply styles for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .nav-logo {
+        margin-bottom: 10px;
+    }
+    
+    .nav-address,.nav-country-map,.nav-country-option,.nav-signin,.nav-cartBox {
+        display: none;
+    }
+    .nav-search {
+        width: auto;
+        margin-bottom: 10px;
+    }
+    #nav-search-select {
+        width: auto;
+        margin-right: -10px;
+        margin-left: -10px;
+    }
+    .nav-search-input {
+        width: 60%;
+    }
+    .nav-search-icon {
+        width: 35px;
+    }
+    .search {
+        display: flex;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .menu-mobile {
+        display: contents;
+        margin-bottom: 1px;
+    }
+    .menu-mobile i {
+        margin-left: 50px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
+    
+    
+    .container2,.hero-message {
+        display: none;
+    }
+    .shop-container1 {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .hero-section {
+        height: 422px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: rgb(186, 224, 183);
+    }
+    
